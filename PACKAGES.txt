@@ -1,21 +1,31 @@
-文件名	版本	装后大小	说明
-bash-5.3-1.aarch64.qyp	5.3-1	12736KB	GNU Bourne-Again Shell（系统默认 shell）
-busybox-1.36.1-1.aarch64.qyp	1.36.1-1	2184KB	静态多合一 Unix 工具箱
-ca-certificates-20250415-1.aarch64.qyp	20250415-1	0KB	系统可信 CA 证书集
-diffutils-3.11-1.aarch64.qyp	3.11-1	1958KB	文件比较工具（diff cmp）
-expat-2.7.0-1.aarch64.qyp	2.7.0-1	444KB	流式 XML 解析库
-findutils-4.10.0-1.aarch64.qyp	4.10.0-1	2687KB	文件搜索工具（find xargs locate）
-gzip-1.13-1.aarch64.qyp	1.13-1	265KB	GNU 压缩工具
-less-668-1.aarch64.qyp	668-1	570KB	文本文件分页查看器
-libffi-3.4.7-1.aarch64.qyp	3.4.7-1	201KB	外部函数接口库（解释器与 JIT 依赖）
-linux-headers-6.16.1-1.aarch64.qyp	6.16.1-1	6839KB	Linux 内核用户空间头文件
-make-4.4.1-1.aarch64.qyp	4.4.1-1	2190KB	GNU make 构建工具
-ncurses-6.5-1.aarch64.qyp	6.5-1	6064KB	终端处理库（供 bash、less、vi 等使用）
-patch-2.8-1.aarch64.qyp	2.8-1	259KB	应用 diff 补丁
-pcre2-10.45-1.aarch64.qyp	10.45-1	4500KB	Perl 兼容正则表达式库
-readline-8.3-1.aarch64.qyp	8.3-1	1948KB	命令行行编辑与历史库
-sed-4.9-1.aarch64.qyp	4.9-1	980KB	非交互式流编辑器
-tar-1.35-1.aarch64.qyp	1.35-1	3562KB	归档工具
-xz-5.8.1-1.aarch64.qyp	5.8.1-1	2697KB	XZ / LZMA 压缩工具与库
-zlib-1.3.1-1.aarch64.qyp	1.3.1-1	379KB	通用无损数据压缩库
-zstd-1.5.7-1.aarch64.qyp	1.5.7-1	2781KB	Zstandard 实时压缩算法与库
+bash-5.3-1.aarch64.qyp  GNU Bourne-Again Shell（系统默认 shell）
+busybox-1.36.1-1.aarch64.qyp  静态多合一 Unix 工具箱
+ca-certificates-20250415-1.aarch64.qyp  系统可信 CA 证书集
+diffutils-3.11-1.aarch64.qyp  文件比较工具（diff cmp）
+expat-2.7.0-1.aarch64.qyp  流式 XML 解析库
+file-5.46-1.aarch64.qyp  按内容识别文件类型
+findutils-4.10.0-1.aarch64.qyp  文件搜索工具（find xargs locate）
+gawk-5.3.1-1.aarch64.qyp  GNU awk 文本处理语言
+gmp-6.3.0-1.aarch64.qyp  任意精度算术库
+grep-3.11-1.aarch64.qyp  模式匹配与文本搜索
+gzip-1.13-1.aarch64.qyp  GNU 压缩工具
+less-668-1.aarch64.qyp  文本文件分页查看器
+libffi-3.4.7-1.aarch64.qyp  外部函数接口库（解释器与 JIT 依赖）
+libqydemo-0.2.0-1.aarch64.qyp  启元构建系统演示共享库
+linux-headers-6.16.1-1.aarch64.qyp  Linux 内核用户空间头文件
+make-4.4.1-1.aarch64.qyp  GNU make 构建工具
+mpfr-4.2.2-1.aarch64.qyp  多精度浮点运算库（gcc/gawk 依赖）
+ncurses-6.5-1.aarch64.qyp  终端处理库（供 bash、less、vi 等使用）
+patch-2.8-1.aarch64.qyp  应用 diff 补丁
+pcre2-10.45-1.aarch64.qyp  Perl 兼容正则表达式库
+pkgconf-2.4.0-1.aarch64.qyp  编译期依赖查询工具（pkg-config 的替代实现）
+procps-ng-4.0.5-1.aarch64.qyp  进程与系统状态工具（ps top kill）
+readline-8.3-1.aarch64.qyp  命令行行编辑与历史库
+sed-4.9-1.aarch64.qyp  非交互式流编辑器
+sqlite-3.49.2-1.aarch64.qyp  嵌入式关系型数据库引擎
+tar-1.35-1.aarch64.qyp  归档工具
+util-linux-2.41-1.aarch64.qyp  系统杂项工具（mount lsblk fdisk 等）
+which-2.23-1.aarch64.qyp  定位可执行文件位置
+xz-5.8.1-1.aarch64.qyp  XZ / LZMA 压缩工具与库
+zlib-1.3.1-1.aarch64.qyp  通用无损数据压缩库
+zstd-1.5.7-1.aarch64.qyp  Zstandard 实时压缩算法与库
