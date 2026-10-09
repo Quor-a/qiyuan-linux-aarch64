@@ -1,1 +1,629 @@
-{"arch":"aarch64","count":20,"distro":"Qiyuan Linux","format":1,"generated":1791555153,"packages":[{"arch":"aarch64","conflicts":[],"depends":["readline","ncurses","glibc"],"file_count":261,"filename":"bash-5.3-1.aarch64.qyp","installed_size":13042301,"name":"bash","pkgid":"bash-5.3-1","provides":["sh"],"release":1,"replaces":[],"sha256":"7f05a3267e776b36db7fa4084f8edbb75466929899033d5aaf54707a3ac57218","size":3337073,"summary":"GNU Bourne-Again Shell（系统默认 shell）","version":"5.3"},{"arch":"aarch64","conflicts":[],"depends":[],"file_count":8,"filename":"busybox-1.36.1-1.aarch64.qyp","installed_size":2236952,"name":"busybox","pkgid":"busybox-1.36.1-1","provides":["udhcpc"],"release":1,"replaces":[],"sha256":"c831993733406715a01e277fac2e204b41133efa009644acda7331f09ed0af1a","size":1181839,"summary":"静态多合一 Unix 工具箱","version":"1.36.1"},{"arch":"aarch64","conflicts":[],"depends":[],"file_count":3,"filename":"ca-certificates-20250415-1.aarch64.qyp","installed_size":0,"name":"ca-certificates","pkgid":"ca-certificates-20250415-1","provides":[],"release":1,"replaces":[],"sha256":"7f76a7c6cf3aa8e5054fa74b8619644d11a3937f854a460f67795815e876144b","size":1245,"summary":"系统可信 CA 证书集","version":"20250415"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":125,"filename":"diffutils-3.11-1.aarch64.qyp","installed_size":2005982,"name":"diffutils","pkgid":"diffutils-3.11-1","provides":[],"release":1,"replaces":[],"sha256":"6417443ac90ebcaa8ac263350e4b7eaddee308133dd7d2f3a10a982321b8c43d","size":688270,"summary":"文件比较工具（diff cmp）","version":"3.11"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":28,"filename":"expat-2.7.0-1.aarch64.qyp","installed_size":454900,"name":"expat","pkgid":"expat-2.7.0-1","provides":["libexpat.so.1"],"release":1,"replaces":[],"sha256":"e22b7d9b30a5dc9a47bded53e44c63078da7d2b246a48aac839fa6ac687fb831","size":142084,"summary":"流式 XML 解析库","version":"2.7.0"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":145,"filename":"findutils-4.10.0-1.aarch64.qyp","installed_size":2751726,"name":"findutils","pkgid":"findutils-4.10.0-1","provides":[],"release":1,"replaces":[],"sha256":"f08a96e6ee4bac333d8f845eb12da17b9ff63abf3b772767e2eb22afe7781067","size":959367,"summary":"文件搜索工具（find xargs locate）","version":"4.10.0"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":33,"filename":"gzip-1.13-1.aarch64.qyp","installed_size":271783,"name":"gzip","pkgid":"gzip-1.13-1","provides":[],"release":1,"replaces":[],"sha256":"a5f1ad0212d2e4d1596ca3aef400a1d38cdf43d611886ceb3911b82b98f7de47","size":100531,"summary":"GNU 压缩工具","version":"1.13"},{"arch":"aarch64","conflicts":[],"depends":["ncurses","pcre2","glibc"],"file_count":11,"filename":"less-668-1.aarch64.qyp","installed_size":583750,"name":"less","pkgid":"less-668-1","provides":[],"release":1,"replaces":[],"sha256":"d9ca2e3c60c989d196ce60cc0ab05f345a8e9ecfbe8dc3e2dbb9f9f68ddc0086","size":179094,"summary":"文本文件分页查看器","version":"668"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":21,"filename":"libffi-3.4.7-1.aarch64.qyp","installed_size":205885,"name":"libffi","pkgid":"libffi-3.4.7-1","provides":["libffi.so.8"],"release":1,"replaces":[],"sha256":"773399a8d659094062e38c67f5a06e3510c9dab4159603ce4b8bf434aa96f483","size":45645,"summary":"外部函数接口库（解释器与 JIT 依赖）","version":"3.4.7"},{"arch":"aarch64","conflicts":[],"depends":[],"file_count":1072,"filename":"linux-headers-6.16.1-1.aarch64.qyp","installed_size":7003892,"name":"linux-headers","pkgid":"linux-headers-6.16.1-1","provides":["linux-api-headers"],"release":1,"replaces":[],"sha256":"9d723a8747ea772789a0f5cf474ed4cc8c51d2607a000e841f09339600b73e13","size":1617781,"summary":"Linux 内核用户空间头文件","version":"6.16.1"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":106,"filename":"make-4.4.1-1.aarch64.qyp","installed_size":2243390,"name":"make","pkgid":"make-4.4.1-1","provides":[],"release":1,"replaces":[],"sha256":"6d26a6bba6cf5a903e432d34c7588fcfa8f37616084d214f5e5cebe0b9667313","size":786909,"summary":"GNU make 构建工具","version":"4.4.1"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":3894,"filename":"ncurses-6.5-1.aarch64.qyp","installed_size":6210254,"name":"ncurses","pkgid":"ncurses-6.5-1","provides":["libncursesw.so.6"],"release":1,"replaces":[],"sha256":"0b9b16053ad9ca61cbec002151b2b9c2c6c09f5cc2515feaf310527740e1f386","size":2508230,"summary":"终端处理库（供 bash、less、vi 等使用）","version":"6.5"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":7,"filename":"patch-2.8-1.aarch64.qyp","installed_size":265381,"name":"patch","pkgid":"patch-2.8-1","provides":[],"release":1,"replaces":[],"sha256":"3ff157752433949e9c214b9762468991f306dd84514cbf6d5f0ef264bd7e15eb","size":110871,"summary":"应用 diff 补丁","version":"2.8"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":249,"filename":"pcre2-10.45-1.aarch64.qyp","installed_size":4608404,"name":"pcre2","pkgid":"pcre2-10.45-1","provides":["libpcre2-8.so.0"],"release":1,"replaces":[],"sha256":"590149fcd450031d9fba0c81a56328a864fd3d52bfd017de9d4a676414dc1a39","size":1462047,"summary":"Perl 兼容正则表达式库","version":"10.45"},{"arch":"aarch64","conflicts":[],"depends":["ncurses","glibc"],"file_count":40,"filename":"readline-8.3-1.aarch64.qyp","installed_size":1995471,"name":"readline","pkgid":"readline-8.3-1","provides":["libreadline.so.8"],"release":1,"replaces":[],"sha256":"cdec5f9dfe2da1db64d04cf6e1974819730ebfb596af9fe1cf8a7438007f1c93","size":527377,"summary":"命令行行编辑与历史库","version":"8.3"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":131,"filename":"sed-4.9-1.aarch64.qyp","installed_size":1004340,"name":"sed","pkgid":"sed-4.9-1","provides":[],"release":1,"replaces":[],"sha256":"6b3be89edf0b03b558f8159aee1cb1ae5cb78af7459960b1d642d43f4d7c7f56","size":317075,"summary":"非交互式流编辑器","version":"4.9"},{"arch":"aarch64","conflicts":[],"depends":["zlib","zstd","glibc"],"file_count":135,"filename":"tar-1.35-1.aarch64.qyp","installed_size":3647576,"name":"tar","pkgid":"tar-1.35-1","provides":[],"release":1,"replaces":[],"sha256":"39ad4a338a0af177f41b9410aa442627c3c85f2fd09dc5a2208c99f277bfa015","size":1352544,"summary":"归档工具","version":"1.35"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":348,"filename":"xz-5.8.1-1.aarch64.qyp","installed_size":2762651,"name":"xz","pkgid":"xz-5.8.1-1","provides":["liblzma.so.5"],"release":1,"replaces":[],"sha256":"203b6213c8ef56946a636654ad07b4a044e9542d9e1f5baa1bc1bc240572ac38","size":844859,"summary":"XZ / LZMA 压缩工具与库","version":"5.8.1"},{"arch":"aarch64","conflicts":[],"depends":["glibc"],"file_count":15,"filename":"zlib-1.3.1-1.aarch64.qyp","installed_size":388601,"name":"zlib","pkgid":"zlib-1.3.1-1","provides":["libz.so.1"],"release":1,"replaces":[],"sha256":"11fe13b90befe6040a691e4ada5ff30eb4cf6e48ef9dc9e0c5c87de347be2a74","size":144476,"summary":"通用无损数据压缩库","version":"1.3.1"},{"arch":"aarch64","conflicts":[],"depends":["zlib","glibc"],"file_count":27,"filename":"zstd-1.5.7-1.aarch64.qyp","installed_size":2847895,"name":"zstd","pkgid":"zstd-1.5.7-1","provides":["libzstd.so.1"],"release":1,"replaces":[],"sha256":"11008ae4df9890de2a9a1b79867e10d192b9d4a03d2bd8283672dad0dbc344c8","size":1173802,"summary":"Zstandard 实时压缩算法与库","version":"1.5.7"}]}
+{
+ "arch": "aarch64",
+ "count": 31,
+ "distro": "Qiyuan Linux",
+ "format": 1,
+ "generated": 1791559655,
+ "packages": [
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "readline",
+    "ncurses",
+    "glibc"
+   ],
+   "file_count": 261,
+   "filename": "bash-5.3-1.aarch64.qyp",
+   "installed_size": 13042301,
+   "name": "bash",
+   "pkgid": "bash-5.3-1",
+   "provides": [
+    "sh"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "7f05a3267e776b36db7fa4084f8edbb75466929899033d5aaf54707a3ac57218",
+   "size": 3337073,
+   "summary": "GNU Bourne-Again Shell（系统默认 shell）",
+   "version": "5.3"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [],
+   "file_count": 8,
+   "filename": "busybox-1.36.1-1.aarch64.qyp",
+   "installed_size": 2236952,
+   "name": "busybox",
+   "pkgid": "busybox-1.36.1-1",
+   "provides": [
+    "udhcpc"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "c831993733406715a01e277fac2e204b41133efa009644acda7331f09ed0af1a",
+   "size": 1181839,
+   "summary": "静态多合一 Unix 工具箱",
+   "version": "1.36.1"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [],
+   "file_count": 3,
+   "filename": "ca-certificates-20250415-1.aarch64.qyp",
+   "installed_size": 0,
+   "name": "ca-certificates",
+   "pkgid": "ca-certificates-20250415-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "7f76a7c6cf3aa8e5054fa74b8619644d11a3937f854a460f67795815e876144b",
+   "size": 1245,
+   "summary": "系统可信 CA 证书集",
+   "version": "20250415"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 125,
+   "filename": "diffutils-3.11-1.aarch64.qyp",
+   "installed_size": 2005982,
+   "name": "diffutils",
+   "pkgid": "diffutils-3.11-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "4982fa6a1c12793644fedab9456fcc055e2fe60b28cdf3b0584b25eac84ec119",
+   "size": 688294,
+   "summary": "文件比较工具（diff cmp）",
+   "version": "3.11"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 28,
+   "filename": "expat-2.7.0-1.aarch64.qyp",
+   "installed_size": 454900,
+   "name": "expat",
+   "pkgid": "expat-2.7.0-1",
+   "provides": [
+    "libexpat.so.1"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "c0475e008f1c4ee9b29e4985c7de8d0b2a2743e202bbf10f69b5667b53d53d75",
+   "size": 142098,
+   "summary": "流式 XML 解析库",
+   "version": "2.7.0"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "zlib"
+   ],
+   "file_count": 23,
+   "filename": "file-5.46-1.aarch64.qyp",
+   "installed_size": 9373090,
+   "name": "file",
+   "pkgid": "file-5.46-1",
+   "provides": [
+    "libmagic.so.1"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "0943f736efc8e566236a391ec8d2108c090cc6a8f9f2282db69c11018c7a14ca",
+   "size": 544683,
+   "summary": "按内容识别文件类型",
+   "version": "5.46"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 145,
+   "filename": "findutils-4.10.0-1.aarch64.qyp",
+   "installed_size": 2751726,
+   "name": "findutils",
+   "pkgid": "findutils-4.10.0-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "f08a96e6ee4bac333d8f845eb12da17b9ff63abf3b772767e2eb22afe7781067",
+   "size": 959367,
+   "summary": "文件搜索工具（find xargs locate）",
+   "version": "4.10.0"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "readline",
+    "mpfr"
+   ],
+   "file_count": 161,
+   "filename": "gawk-5.3.1-1.aarch64.qyp",
+   "installed_size": 6851224,
+   "name": "gawk",
+   "pkgid": "gawk-5.3.1-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "8e0408829e0b4b8f1ee483ec65beab99197f0b5b7ba6797749596ad16f3cc312",
+   "size": 1728913,
+   "summary": "GNU awk 文本处理语言",
+   "version": "5.3.1"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [],
+   "file_count": 22,
+   "filename": "gmp-6.3.0-1.aarch64.qyp",
+   "installed_size": 1430796,
+   "name": "gmp",
+   "pkgid": "gmp-6.3.0-1",
+   "provides": [
+    "libgmp.so.10"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "275f23f53dc16adc344d9ef9e281da8ccc0ae73ad1e79701fb5d18b8cbbdb699",
+   "size": 452853,
+   "summary": "任意精度算术库",
+   "version": "6.3.0"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "pcre2"
+   ],
+   "file_count": 148,
+   "filename": "grep-3.11-1.aarch64.qyp",
+   "installed_size": 1183935,
+   "name": "grep",
+   "pkgid": "grep-3.11-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "37926aa1f56b5124bc764e155c1bddf352d7e602f4cd675bc5388799bdb91b76",
+   "size": 362745,
+   "summary": "模式匹配与文本搜索",
+   "version": "3.11"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 33,
+   "filename": "gzip-1.13-1.aarch64.qyp",
+   "installed_size": 271783,
+   "name": "gzip",
+   "pkgid": "gzip-1.13-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "a5f1ad0212d2e4d1596ca3aef400a1d38cdf43d611886ceb3911b82b98f7de47",
+   "size": 100531,
+   "summary": "GNU 压缩工具",
+   "version": "1.13"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "ncurses",
+    "pcre2",
+    "glibc"
+   ],
+   "file_count": 11,
+   "filename": "less-668-1.aarch64.qyp",
+   "installed_size": 583750,
+   "name": "less",
+   "pkgid": "less-668-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "8b036ac1b9f5d9d4e79c9d1f45d7ef3b0bb1a603c520ec0c80000b129c1f9374",
+   "size": 179093,
+   "summary": "文本文件分页查看器",
+   "version": "668"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 21,
+   "filename": "libffi-3.4.7-1.aarch64.qyp",
+   "installed_size": 205885,
+   "name": "libffi",
+   "pkgid": "libffi-3.4.7-1",
+   "provides": [
+    "libffi.so.8"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "f072da9f51827397288ca847cdbc763a702a54e79ae9f94b2d85a67dcb5bb963",
+   "size": 45655,
+   "summary": "外部函数接口库（解释器与 JIT 依赖）",
+   "version": "3.4.7"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [],
+   "file_count": 6,
+   "filename": "libqydemo-0.2.0-1.aarch64.qyp",
+   "installed_size": 15446,
+   "name": "libqydemo",
+   "pkgid": "libqydemo-0.2.0-1",
+   "provides": [
+    "libqydemo.so.1"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "a252e99ca4c6e0b72e3642bdd91cafecd13413e84f3ee5f9cacb245c77399007",
+   "size": 3804,
+   "summary": "启元构建系统演示共享库",
+   "version": "0.2.0"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [],
+   "file_count": 1072,
+   "filename": "linux-headers-6.16.1-1.aarch64.qyp",
+   "installed_size": 7003892,
+   "name": "linux-headers",
+   "pkgid": "linux-headers-6.16.1-1",
+   "provides": [
+    "linux-api-headers"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "fb09181938a1c0cdf53f2ce37ee5d9ebb52bb2b58acfca8ff1d54eec92c512f8",
+   "size": 1617769,
+   "summary": "Linux 内核用户空间头文件",
+   "version": "6.16.1"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 106,
+   "filename": "make-4.4.1-1.aarch64.qyp",
+   "installed_size": 2243390,
+   "name": "make",
+   "pkgid": "make-4.4.1-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "6d26a6bba6cf5a903e432d34c7588fcfa8f37616084d214f5e5cebe0b9667313",
+   "size": 786909,
+   "summary": "GNU make 构建工具",
+   "version": "4.4.1"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "gmp"
+   ],
+   "file_count": 32,
+   "filename": "mpfr-4.2.2-1.aarch64.qyp",
+   "installed_size": 3368051,
+   "name": "mpfr",
+   "pkgid": "mpfr-4.2.2-1",
+   "provides": [
+    "libmpfr.so.6"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "3c45b6d8b88ed237071cbd00ad1356eac80623fc92685ca82f57fe9c42fb65de",
+   "size": 2407224,
+   "summary": "多精度浮点运算库（gcc/gawk 依赖）",
+   "version": "4.2.2"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [],
+   "file_count": 3894,
+   "filename": "ncurses-6.5-1.aarch64.qyp",
+   "installed_size": 6210221,
+   "name": "ncurses",
+   "pkgid": "ncurses-6.5-1",
+   "provides": [
+    "libncursesw.so.6"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "8d0fde4a18cdfd242818c615dd47ef7191a5279a0a3e955d15e54aa4583d8af2",
+   "size": 2511000,
+   "summary": "终端处理库（供 bash、less、vi 等使用）",
+   "version": "6.5"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 7,
+   "filename": "patch-2.8-1.aarch64.qyp",
+   "installed_size": 265381,
+   "name": "patch",
+   "pkgid": "patch-2.8-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "3ff157752433949e9c214b9762468991f306dd84514cbf6d5f0ef264bd7e15eb",
+   "size": 110871,
+   "summary": "应用 diff 补丁",
+   "version": "2.8"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [],
+   "file_count": 249,
+   "filename": "pcre2-10.45-1.aarch64.qyp",
+   "installed_size": 4608404,
+   "name": "pcre2",
+   "pkgid": "pcre2-10.45-1",
+   "provides": [
+    "libpcre2-8.so.0"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "99d4dff30b160f55e9c8fc7c4d392dd0f5874c6471be8833e55e5b7d24c36959",
+   "size": 1461971,
+   "summary": "Perl 兼容正则表达式库",
+   "version": "10.45"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 35,
+   "filename": "pkgconf-2.4.0-1.aarch64.qyp",
+   "installed_size": 512929,
+   "name": "pkgconf",
+   "pkgid": "pkgconf-2.4.0-1",
+   "provides": [
+    "pkg-config",
+    "pkgconfig"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "beef5a762cd0830ae5c04b81f01db761e59267827143a13440004e82a3d8ed8a",
+   "size": 132463,
+   "summary": "编译期依赖查询工具（pkg-config 的替代实现）",
+   "version": "2.4.0"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "ncurses"
+   ],
+   "file_count": 242,
+   "filename": "procps-ng-4.0.5-1.aarch64.qyp",
+   "installed_size": 4432246,
+   "name": "procps-ng",
+   "pkgid": "procps-ng-4.0.5-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "cbcbb82e0836c4d02bf4e023895004abefc0c0e790834f7bb8986c72aceb60d4",
+   "size": 1271299,
+   "summary": "进程与系统状态工具（ps top kill）",
+   "version": "4.0.5"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "ncurses"
+   ],
+   "file_count": 40,
+   "filename": "readline-8.3-1.aarch64.qyp",
+   "installed_size": 1995519,
+   "name": "readline",
+   "pkgid": "readline-8.3-1",
+   "provides": [
+    "libreadline.so.8"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "747853618dfab303ecab06be592f219d88f03e31897b6e7fd3410f6cd50fa46d",
+   "size": 527515,
+   "summary": "命令行行编辑与历史库",
+   "version": "8.3"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 131,
+   "filename": "sed-4.9-1.aarch64.qyp",
+   "installed_size": 1004340,
+   "name": "sed",
+   "pkgid": "sed-4.9-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "6b3be89edf0b03b558f8159aee1cb1ae5cb78af7459960b1d642d43f4d7c7f56",
+   "size": 317075,
+   "summary": "非交互式流编辑器",
+   "version": "4.9"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "zlib",
+    "readline"
+   ],
+   "file_count": 16,
+   "filename": "sqlite-3.49.2-1.aarch64.qyp",
+   "installed_size": 3766271,
+   "name": "sqlite",
+   "pkgid": "sqlite-3.49.2-1",
+   "provides": [
+    "libsqlite3.so.0"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "076a415734e6baa9fc94464743857e3e14dbb81cc7e8784cc48367182c48d693",
+   "size": 1728650,
+   "summary": "嵌入式关系型数据库引擎",
+   "version": "3.49.2"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "zlib",
+    "zstd",
+    "glibc"
+   ],
+   "file_count": 135,
+   "filename": "tar-1.35-1.aarch64.qyp",
+   "installed_size": 3647576,
+   "name": "tar",
+   "pkgid": "tar-1.35-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "39ad4a338a0af177f41b9410aa442627c3c85f2fd09dc5a2208c99f277bfa015",
+   "size": 1352544,
+   "summary": "归档工具",
+   "version": "1.35"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "zlib",
+    "ncurses",
+    "glibc",
+    "readline"
+   ],
+   "file_count": 489,
+   "filename": "util-linux-2.41-1.aarch64.qyp",
+   "installed_size": 26425286,
+   "name": "util-linux",
+   "pkgid": "util-linux-2.41-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "61876f3a11fdf9573396c551bfa9ba72f2605878d2a8163729993a3f3c941a1b",
+   "size": 8326723,
+   "summary": "系统杂项工具（mount lsblk fdisk 等）",
+   "version": "2.41"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 10,
+   "filename": "which-2.23-1.aarch64.qyp",
+   "installed_size": 87376,
+   "name": "which",
+   "pkgid": "which-2.23-1",
+   "provides": [],
+   "release": 1,
+   "replaces": [],
+   "sha256": "fc5f0eb26337a679c28d2269eb51776ed72682c6bbaeecc3a17367ecdf8d0984",
+   "size": 19380,
+   "summary": "定位可执行文件位置",
+   "version": "2.23"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "glibc"
+   ],
+   "file_count": 348,
+   "filename": "xz-5.8.1-1.aarch64.qyp",
+   "installed_size": 2762651,
+   "name": "xz",
+   "pkgid": "xz-5.8.1-1",
+   "provides": [
+    "liblzma.so.5"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "203b6213c8ef56946a636654ad07b4a044e9542d9e1f5baa1bc1bc240572ac38",
+   "size": 844859,
+   "summary": "XZ / LZMA 压缩工具与库",
+   "version": "5.8.1"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [],
+   "file_count": 15,
+   "filename": "zlib-1.3.1-1.aarch64.qyp",
+   "installed_size": 388601,
+   "name": "zlib",
+   "pkgid": "zlib-1.3.1-1",
+   "provides": [
+    "libz.so.1"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "bdc2ff133f474a59b320c73538fcb0787b69ff54c04fc839bb720bc81199621f",
+   "size": 144472,
+   "summary": "通用无损数据压缩库",
+   "version": "1.3.1"
+  },
+  {
+   "arch": "aarch64",
+   "conflicts": [],
+   "depends": [
+    "zlib",
+    "glibc"
+   ],
+   "file_count": 27,
+   "filename": "zstd-1.5.7-1.aarch64.qyp",
+   "installed_size": 2847895,
+   "name": "zstd",
+   "pkgid": "zstd-1.5.7-1",
+   "provides": [
+    "libzstd.so.1"
+   ],
+   "release": 1,
+   "replaces": [],
+   "sha256": "11008ae4df9890de2a9a1b79867e10d192b9d4a03d2bd8283672dad0dbc344c8",
+   "size": 1173802,
+   "summary": "Zstandard 实时压缩算法与库",
+   "version": "1.5.7"
+  }
+ ]
+}
