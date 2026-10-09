@@ -1,0 +1,17 @@
+文件名	版本	大小	说明
+busybox-1.36.1-1.aarch64.qyp	1.36.1-1	2184KB	静态多合一 Unix 工具箱
+ca-certificates-20250415-1.aarch64.qyp	20250415-1	0KB	系统可信 CA 证书集
+diffutils-3.11-1.aarch64.qyp	3.11-1	1958KB	文件比较工具（diff cmp）
+findutils-4.10.0-1.aarch64.qyp	4.10.0-1	2687KB	文件搜索工具（find xargs locate）
+gzip-1.13-1.aarch64.qyp	1.13-1	265KB	GNU 压缩工具
+linux-headers-6.16.1-1.aarch64.qyp	6.16.1-1	6839KB	Linux 内核用户空间头文件
+make-4.4.1-1.aarch64.qyp	4.4.1-1	2190KB	GNU make 构建工具
+ncurses-6.5-1.aarch64.qyp	6.5-1	6064KB	终端处理库（供 bash、less、vi 等使用）
+patch-2.8-1.aarch64.qyp	2.8-1	259KB	应用 diff 补丁
+pcre2-10.45-1.aarch64.qyp	10.45-1	4500KB	Perl 兼容正则表达式库
+readline-8.2-1.aarch64.qyp	8.2-1	1168KB	命令行行编辑与历史库
+sed-4.9-1.aarch64.qyp	4.9-1	980KB	非交互式流编辑器
+tar-1.35-1.aarch64.qyp	1.35-1	3562KB	归档工具
+xz-5.8.1-1.aarch64.qyp	5.8.1-1	2697KB	XZ / LZMA 压缩工具与库
+zlib-1.3.1-1.aarch64.qyp	1.3.1-1	379KB	通用无损数据压缩库
+zstd-1.5.7-1.aarch64.qyp	1.5.7-1	2781KB	Zstandard 实时压缩算法与库
